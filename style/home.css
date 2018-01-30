@@ -1,0 +1,51 @@
+.login-form
+{
+    box-shadow: 5px 10px #888888;
+    height: 300px;
+    width: 400px;
+    background-color: #FF8C00;
+    margin:0 auto;
+    border-radius: 25px;
+}
+input[type=password],input[type=email] {
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+  height: 25px;
+  width: 280px;
+  font-size: 24px;
+  font-family: cursive;
+}
+input[type=text] {
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+  height: 25px;
+  width: 50px;
+  font-size: 24px;
+}
+p
+{
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+input[type=password]:focus,input[type=email]:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+.name-login
+{
+  font-size: 35px;
+}
+.login-button
+{
+  width: 80px;
+  height: 40px;
+  background-color: blue;
+  box-shadow: 5px 3px #888888;
+  font-family: cursive;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 15px;
+}
